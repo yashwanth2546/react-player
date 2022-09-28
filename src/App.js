@@ -9,8 +9,8 @@ function App() {
           <BigPlayButton position="center" />
           <ControlBar>
               <PlaybackRateMenuButton rates={[6, 2, 1.5, 1, 0.5, 0.1]}/>
-              <ReplayControl seconds={10} />
               <ForwardControl seconds={10} />
+              <ReplayControl seconds={10} />
           </ControlBar>
       </Player>
   );
